@@ -1,0 +1,31 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "A web-scraper for Mic.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mweiss17/node-test.git"
+  },
+  "author": "Martin Weiss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mweiss17/node-test/issues"
+  },
+  "homepage": "https://github.com/mweiss17/node-test",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cheerio": "^0.19.0",
+    "express": "^4.13.3",
+    "fb": "^0.7.3",
+    "hbs": "^4.0.0",
+    "pg": "^4.4.3",
+    "request": "^2.65.0",
+    "require": "^2.4.20",
+    "webshot": "^0.16.0"
+  }
+}
